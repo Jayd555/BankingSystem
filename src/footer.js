@@ -5,10 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Icon, InlineIcon } from '@iconify/react';
-import mailIcon from '@iconify-icons/ci/mail';
-import phoneIcon from '@iconify-icons/ci/phone';
-
 
 
 
@@ -26,10 +22,10 @@ class Footer extends Component {
                 <h4 style={{color: "white"}} >Have Any Questions?</h4>
                <ul className="list-unstyled" style={{color: "gray"}}>
                    <li>
-                       <Icon icon={mailIcon}/> support.Spark.bank@gmail.com
+                        support.Spark.bank@gmail.com
                    </li>
                    <li>
-                   <Icon icon={phoneIcon}/> 12991299
+                    12991299
                    </li>
                </ul>
                
